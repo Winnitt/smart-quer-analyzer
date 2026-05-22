@@ -1,4 +1,4 @@
-# SmartQuery AI: Natural Language Analytics Platform 🚀
+# SmartQuery AI: Natural Language Analytics Platform 
 
 SmartQuery AI is a professional, serverless analytics workspace that allows users to perform complex data analysis on AWS-hosted datasets using only Natural Language. It acts as a "Semantic Layer" over your data lake, translating human questions into high-performance SQL.
 
