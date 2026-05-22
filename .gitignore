@@ -1,0 +1,52 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# --- SENSITIVE DATA (CRITICAL) ---
+# This prevents your AWS and AI keys from being stolen
+src/main/resources/application.properties
+
+# --- FRONTEND (React) ---
+# This prevents thousands of library files from being uploaded
+smart-query-ui/node_modules/
+smart-query-ui/dist/
+smart-query-ui/.env
+smart-query-ui/.env.local
+
+# --- EXTRA CLEANUP ---
+# Hide the Maven wrapper and logs
+.mvn/
+mvnw
+mvnw.cmd
+*.log
+
